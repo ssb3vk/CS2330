@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fsm>
+  <states>
+    <state>
+      <values>BlueLED=0,OrangeLED=0</values>
+      <position x="0.0" y="-540.0"/>
+      <number>0</number>
+      <name></name>
+      <radius>70</radius>
+      <isInitial>true</isInitial>
+      <initialAngle>12</initialAngle>
+    </state>
+    <state>
+      <values>BlueLED=0,OrangeLED=0</values>
+      <position x="360.0" y="-360.0"/>
+      <number>1</number>
+      <name></name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+    </state>
+    <state>
+      <values>BlueLED=0,OrangeLED=1</values>
+      <position x="540.0" y="0.0"/>
+      <number>2</number>
+      <name></name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+    </state>
+    <state>
+      <values>BlueLED=0,OrangeLED=1</values>
+      <position x="360.0" y="360.0"/>
+      <number>3</number>
+      <name></name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+    </state>
+    <state>
+      <values>BlueLED=1,OrangeLED=0</values>
+      <position x="0.0" y="540.0"/>
+      <number>4</number>
+      <name></name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+    </state>
+    <state>
+      <values>BlueLED=1,OrangeLED=0</values>
+      <position x="-360.0" y="360.0"/>
+      <number>5</number>
+      <name></name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+    </state>
+    <state>
+      <values>BlueLED=1,OrangeLED=1</values>
+      <position x="-540.0" y="0.0"/>
+      <number>6</number>
+      <name></name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+    </state>
+    <state>
+      <values>BlueLED=1,OrangeLED=1</values>
+      <position x="-360.0" y="-360.0"/>
+      <number>7</number>
+      <name></name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+    </state>
+  </states>
+  <transitions>
+    <transition>
+      <values></values>
+      <position x="196.95212" y="-483.90424"/>
+      <fromState reference="../../../states/state"/>
+      <toState reference="../../../states/state[2]"/>
+      <condition>Pushbutton=1</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="483.90326" y="-196.95163"/>
+      <fromState reference="../../../states/state[2]"/>
+      <toState reference="../../../states/state[3]"/>
+      <condition>Pushbutton=0</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="483.90387" y="196.95193"/>
+      <fromState reference="../../../states/state[3]"/>
+      <toState reference="../../../states/state[4]"/>
+      <condition>Pushbutton=1</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="196.95163" y="483.90326"/>
+      <fromState reference="../../../states/state[4]"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>Pushbutton=0</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-196.95193" y="483.90387"/>
+      <fromState reference="../../../states/state[5]"/>
+      <toState reference="../../../states/state[6]"/>
+      <condition>Pushbutton=1</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-483.90344" y="196.95172"/>
+      <fromState reference="../../../states/state[6]"/>
+      <toState reference="../../../states/state[7]"/>
+      <condition>Pushbutton=0</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-483.90405" y="-196.95203"/>
+      <fromState reference="../../../states/state[7]"/>
+      <toState reference="../../../states/state[8]"/>
+      <condition>Pushbutton=1</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-196.95215" y="-483.9043"/>
+      <fromState reference="../../../states/state[8]"/>
+      <toState reference="../../../states/state"/>
+      <condition>Pushbutton=0</condition>
+    </transition>
+  </transitions>
+</fsm>

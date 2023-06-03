@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<truthTable>
+  <variables>
+    <variable name="Q_2^n"/>
+    <variable name="Q_1^n"/>
+    <variable name="Q_0^n"/>
+    <variable name="Op2"/>
+    <variable name="Op1"/>
+    <variable name="Op0"/>
+  </variables>
+  <results>
+    <result>
+      <name>Q_2^{n+1}</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEAAAAAAQEBAQICAgIBAQEBAgICAgAAAAACAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>Q_1^{n+1}</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAABAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQICAgIBAQEBAgICAgAAAAACAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>Q_0^{n+1}</name>
+      <values class="BoolTable">
+        <table>AQEBAQEBAQEAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAABAQEBAQEAAAAAAAAAAAICAgIBAQEBAgICAgAAAAACAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>T0</name>
+      <values class="BoolTable">
+        <table>AQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>T1</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>T2</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>T3</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>T4</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>T5</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQICAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>T6</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIBAQEBAgIAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>T7</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgEBAQECAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>Execute</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQICAgIBAQEBAgICAgEBAQECAg==</table>
+      </values>
+    </result>
+  </results>
+</truthTable>

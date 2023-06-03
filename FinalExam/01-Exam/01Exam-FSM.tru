@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<truthTable>
+  <variables>
+    <variable name="Z_1^n"/>
+    <variable name="Z_0^n"/>
+    <variable name="Direction"/>
+  </variables>
+  <results>
+    <result>
+      <name>Z_1^{n+1}</name>
+      <values class="BoolTable">
+        <table>AAEBAAABAQA=</table>
+      </values>
+    </result>
+    <result>
+      <name>Z_0^{n+1}</name>
+      <values class="BoolTable">
+        <table>AQABAAABAAE=</table>
+      </values>
+    </result>
+  </results>
+</truthTable>
